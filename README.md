@@ -1,1 +1,1 @@
-# linux-command-for-devops
+# linux-commands-for-devops
