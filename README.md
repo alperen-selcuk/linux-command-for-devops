@@ -1,18 +1,16 @@
 # linux-commands-for-devops
 
 
-###SYSTEM INFORMATION
-uname -a # Display Linux system information
-uname -r # Display kernel release information
-lsb_release -a # Show which version of ubuntu installed
-uptime # Show how long the system has been running the load
-hostname # Show system host name
-hostname -I # Display the IP addresses of the host
-last reboot # Show system reboot history
-date # Show the current date and time
-cal # Show this month's calendar
-w # Display who is online
-whoami # Who you are logged in as
+### sistem komutları
+
+```cat /etc/*release*```   hangi version hangi kernel linux oldugunu belirtir.
+
+```free -m ```             sistemde total ve kullanılan memory gösterir
+
+```du -h --max-depth=1```  bulunduğunuz dosya dizininde 1 alt klasörlerin toplam boyutunu gösterir. depth ne kadar fazla ise o kadar alt dizine bakar.
+
+```df -h```                sistem disklerinin kullanım yüzdesini gösterir
+
 
 ###Networking commands-
 Ifconfig # To display the system ip address.
